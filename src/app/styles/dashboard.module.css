@@ -1,0 +1,102 @@
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background: rgba(255, 255, 255, 0.411);*/
+    /*backdrop-filter: blur(10px);*/
+    width: 90%;
+    border-radius: 20px;  
+    margin: 1rem; 
+    /*box-shadow: 5px 5px 15px rgba(250, 206, 95, 0.3),
+            -5px -5px 15px rgba(255, 79, 161, 0.3);*/
+}
+
+.mainDashboard{
+    display: flex;
+    
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.graph{
+    width: 50%;
+    color: black;
+}
+
+.card{
+    flex-direction: row-reverse;
+}
+
+.containerDash{
+   width: 100%;
+    position: relative;
+    height:93vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.section a{
+    color: black;
+}
+
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    background: url('/cardBg.png') center/cover no-repeat;
+    border-radius: 20px;
+    backdrop-filter: blur(70px);
+    width: 50%;
+    height: 200px;
+    color: white;
+    padding: 2rem;
+}
+
+.top{
+    margin-bottom: 1rem;
+}
+
+.chip{
+    width: 50px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.chip img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.chipType{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.validity{
+    display: flex;
+    align-content: center;
+    gap: .5rem;
+    font-size: 12px;
+}
+

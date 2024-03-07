@@ -1,0 +1,10 @@
+body{
+    background: url("/bg.png") center/cover no-repeat;
+    height: 80vh;
+}
+@media only screen and (max-width: 992px) {
+    body{
+        height: 100vh;
+    }
+    /* Your styles for screens with a maximum width of 992px or less go here */
+}

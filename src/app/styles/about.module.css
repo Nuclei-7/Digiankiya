@@ -1,0 +1,47 @@
+    .container {
+        background-color: #6B3A99;
+        /* Purple background color */
+        font-family: Arial, sans-serif;
+        color: #FFFFFF;
+        height: 100vh;
+        width: 100vw;
+        /* White text color */
+        margin: 0;
+    }
+
+    .containercard {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* Semi-transparent background for content */
+        border-radius: 10px;
+        /* Rounded corners */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        /* Box shadow */
+    }
+
+        .containercard h1 {
+        font-size: 28px;
+        text-align: center;
+        color: #FFD700;
+        /* Gold text color */
+        text-transform: uppercase;
+    }
+
+        .containercard p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+        .containercard a {
+        color: #FFD700;
+        /* Gold link color */
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+        .containercard a:hover {
+        color: #FFFFFF;
+        /* White on hover */
+    }
