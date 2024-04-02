@@ -44,14 +44,23 @@ export const Nav = () => {
                             <Link href="/about">About</Link>
                         </li>
                         <li className={styles.navItem}>
-                            <Link href="/account">Account</Link>
-                        </li>
-                        <li className={styles.navItem}>
                         <Link href="/auth/logout">Logout</Link>
                         </li>
                     </>)
                         : (<>
-                            < li className={styles.navItem}>
+                        <li className={styles.navItem}>
+                            <Link href="/">Home</Link>
+                        </li>
+                        <li className={styles.navItem}>
+                            <Link href="/services">Services</Link>
+                        </li>
+                        <li className={styles.navItem}>
+                            <Link href="/contact">Contact</Link>
+                        </li>
+                        <li className={styles.navItem}>
+                            <Link href="/about">About</Link>
+                        </li>
+                        <li className={styles.navItem}>
                         <Link href="/auth/login">Login</Link>
                         </li>
                         

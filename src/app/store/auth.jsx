@@ -61,12 +61,14 @@ export const AuthProvider = ({ children }) => {
             } catch (err) {
                 console.log(err);
             }
-        } else {
+        }
+        /* else {
             const currentURL = window.location.href;
                 if (!(currentURL==='http://localhost/auth/login' || currentURL==='http://localhost/auth/signup')) {
                     router.push('/auth/login');
                 }
             }
+            */
     };
     useEffect(() => {
         userAuthentication();

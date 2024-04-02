@@ -1,0 +1,21 @@
+/* styles/Services.module.css */
+
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

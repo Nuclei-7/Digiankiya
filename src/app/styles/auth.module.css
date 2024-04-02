@@ -10,8 +10,6 @@
 .signupContainer {
     transform: translateY(10%);
 }
-
-
 .authCard{
     display: flex;
     flex-direction: column;

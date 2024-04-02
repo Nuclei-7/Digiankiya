@@ -1,41 +1,28 @@
 import Head from "next/head";
-import Image from "next/image";
+import styles from '@/app/styles/home.module.css'
 
 const Home = () => {
   return (
     <>
     <Head>
-
-
-        
     </Head>
-      <section id="banner">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <p className="promo-title">We can make Technology Accessible</p>
-              <p>
-                Exceptional IT solutions to small businesses, healthcare
-                units, organizations, and institutions
-              </p>
-              <a href="https://www.youtube.com/channel/UC7vSKFGYDlLre-9jVYkVyOA">
-                <img src="./images/play.png" className="play-btn" alt="Play" />
-                Watch Tutorials
-              </a>
-            </div>
-            <div className="col-md-6 text-center">
-              <Image
-                src="/images/home2.png" // Assuming your images are in the "public" folder
-                className="img-fluid"
-                alt="Home Image"
-                width={100} // Set your desired width
-                height={100} // Set your desired height
-              />
-            </div>
-          </div>
-        </div>
-        <img src="/images/wave1.png" className="bottom-img" alt="Wave" />
-      </section>
+
+<div className={styles.home}>
+      
+      <main className={styles.main}>
+        <h2>Our Services</h2>
+        <p>We provide a range of services to meet your needs. Explore our services below:</p>
+        <ul>
+          <li>Service 1</li>
+          <li>Service 2</li>
+          <li>Service 3</li>
+        </ul>
+      </main>
+      <footer className={styles.footer}>
+        <p>&copy; 2024 Our Service Company. All rights reserved.</p>
+      </footer>
+    </div>
+
     </>
   );
 };

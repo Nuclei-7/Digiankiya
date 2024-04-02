@@ -23,13 +23,11 @@ const dbConnect = async () => {
         const opts = {
             bufferCommands: false
         };
-
         cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => {
             console.log("connection Successful")
             return mongoose;
         })
     }
-
     try {
         cached.conn = await cached.promise;
     } catch (e) {
