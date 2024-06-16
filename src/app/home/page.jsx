@@ -13,9 +13,9 @@ const Home = () => {
         <h2>Our Services</h2>
         <p>We provide a range of services to meet your needs. Explore our services below:</p>
         <ul>
-          <li>Service 1</li>
-          <li>Service 2</li>
-          <li>Service 3</li>
+          <li> Auruma Gold Pay</li>
+          <li> Spurious Hit Dot Com</li>
+          <li> IndiTube Dot Com</li>
         </ul>
       </main>
       <footer className={styles.footer}>
