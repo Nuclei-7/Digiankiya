@@ -1,0 +1,75 @@
+/* footer.module.css */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.column h3 {
+    margin-bottom: 15px;
+}
+
+.navList,
+.socialList {
+    list-style: none;
+    padding: 0;
+}
+
+.navList li,
+.socialList li {
+    margin-bottom: 10px;
+}
+
+.navList li a,
+.socialList li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navList li a:hover,
+.socialList li a:hover {
+    color: #f0c040;
+    /* Gold color for hover effect */
+}
+
+.footerBottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backToTop {
+    background-color: #f0c040;
+    /* Gold color for the button */
+    border: none;
+    padding: 10px 20px;
+    color: #222;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.backToTop:hover {
+    background-color: #daa520;
+    /* Darker gold color for hover effect */
+}
